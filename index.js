@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
     },
     text: {
-        fontSize: 20,
+        fontSize: 17,
         fontWeight:"500",
         color: '#2dbe0b',
 
@@ -158,7 +158,7 @@ class PercentageCircle extends Component {
               borderRadius:this.props.radius - this.state.borderWidth,
               backgroundColor: '#fff',
             }]}>
-                    <Text style={styles.text}>{this.props.percentText}<Text style={{fontSize:16}}>分</Text></Text>
+                    <Text style={styles.text}>{this.props.percentText}<Text style={{fontSize:14}}>分</Text></Text>
                 </View>
 
             </View>
